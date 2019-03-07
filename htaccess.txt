@@ -1,1 +1,6 @@
+<!doctype html> 
+<html lang="da">
+    <head>
+   <title>404 error page</title>
+   </head>
 ErrorDocument 404 /errorpage.html
