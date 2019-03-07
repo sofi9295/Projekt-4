@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow:
+
+sitemap: http://designerfie.dk/sitemap.xml
