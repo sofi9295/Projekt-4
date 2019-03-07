@@ -10,19 +10,19 @@ section{
 }
 
 #pageA{
-    background-color:#FF5733;    
+    background-color:#bcd531;    
 }
 #pageB{
-    background-color:#BBFF33;  
+    background-color:#e20a19;  
 } 
 #pageC{
-    background-color:#33FF7A; 
+    background-color:#ee6f56; 
 }
 #pageD{
-    background-color:#FF33C7;  
+    background-color:#b59f53;  
 }
 #pageE{
-    background-color:#3386FF;   
+    background-color:#57bfc7;  
 }
 nav{
     width: 100%;
@@ -42,21 +42,49 @@ ul li a:hover{
     text-decoration: underline;
 }
 h1{
-    color: #fff; text-align: center; margin-top:150px;}
+    color: #000000; text-align: center; margin-top:70px;}
 
-
-.billedeA{
-    float:right
+.grid {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+.gridbox {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+.gridboxen {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+.gridboxxen {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+.gridboxxxen {
+  display: grid;
+  grid: 150px / auto auto auto;
 }
 
-.billedeB{}
+@media screen and (min-width: 200px){
+    #grid {width: 200px; margin-left: 216px;}
+    #gridbox {width: 200px; margin-left: 216px;}
+    #gridboxen {width: 200px; margin-left: 216px;}
+    #gridboxxen {width: 200px; margin-left: 216px;}
+    #gridboxxxen {width: 200px; margin-left: 216px;}
+}
 
-.billedeC{}
+@media screen and (max-width: 480px){ 
+    #grid {width: 200px; margin-left: 216px;}
+    #gridbox {width: 200px; margin-left: 216px;}
+    #gridboxen {width: 200px; margin-left: 216px;}
+    #gridboxxen {width: 200px; margin-left: 216px;}
+    #gridboxxxen {width: 200px; margin-left: 216px;}
+}
 
-
-
-
-
-
-
-
+@media screen and (max-width: 900px){ 
+    #grid {width: 200px; margin-left: 216px;}
+    #gridbox {width: 200px; margin-left: 216px;}
+    #gridboxen {width: 200px; margin-left: 216px;}
+    #gridboxxen {width: 200px; margin-left: 216px;}
+    #gridboxxxen {width: 200px; margin-left: 216px;}
+}
